@@ -1,0 +1,3 @@
+boolean (Everyone) {
+  description (If true, everyone is playing today)
+}

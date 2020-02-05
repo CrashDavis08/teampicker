@@ -1,0 +1,28 @@
+action (CreateTeams) {
+	type (Calculation)
+	description (Creates balanced teams)
+	
+	collect {
+		input (everyoneFlag) {
+			type (Everyone)
+			min (Optional) max (One)
+		}
+		computed-input (player) {
+			type (Player)
+			min (Required) max (Many)
+			compute {
+				if (everyoneFlag == true) {
+					intent: goal: ConstructPlayerList
+				}
+				else {
+					intent {
+						goal: SelectPlayerPool					
+						
+					}
+				}
+			}
+		}
+		
+	}
+	output (Team)
+}

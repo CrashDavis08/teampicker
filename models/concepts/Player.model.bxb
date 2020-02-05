@@ -1,0 +1,12 @@
+structure (Player) {
+  description (A Player)
+  property (playerName) {
+    type (PlayerName)
+    min (Required) max (One)
+  }
+  property (playerImpact){
+    type (PlayerImpact) 
+    min (Required) max (One)
+  }
+
+}

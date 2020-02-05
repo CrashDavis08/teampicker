@@ -1,0 +1,20 @@
+endpoints {
+  action-endpoints {
+    
+    action-endpoint (CreateTeams) {
+      accepted-inputs (everyoneFlag, player)
+      local-endpoint (CreateTeams.js)
+    }
+    action-endpoint (ConstructPlayerList) {
+      accepted-inputs ()
+      local-endpoint (ConstructPlayerList.js)
+    }
+    // action-endpoint (SelectPlayerPool) {
+    //   accepted-inputs ()
+    //   local-endpoint (ConstructPlayerList.js)
+    // }
+
+
+    
+  }
+}

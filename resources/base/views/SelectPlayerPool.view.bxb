@@ -1,0 +1,21 @@
+input-view {
+	match: Player (this)
+	message ("Who's playing today?")
+	
+	render {
+		selection-of (this) {
+			where-each (one) {
+				cell-card {
+					slot2 {
+						content {
+							primary {
+								template ("#{value (one.playerName)}")
+							}
+						}
+					}
+				}
+				
+			}
+		}		
+	}
+}

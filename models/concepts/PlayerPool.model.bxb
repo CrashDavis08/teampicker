@@ -1,0 +1,7 @@
+structure (PlayerPool) {
+  description (Pool of people playing today)
+  property (player) {
+    type (Player)
+    min (Required) max (Many)
+  }
+}

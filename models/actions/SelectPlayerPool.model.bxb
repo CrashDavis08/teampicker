@@ -1,0 +1,22 @@
+action (SelectPlayerPool) {
+  type (Search)
+  description (Prompts User to select who is playing)
+  collect {
+    input (player) {
+      type (Player)
+      min (Required) max (Many)
+      prompt-behavior (AlwaysSelection)
+      default-init {
+        intent {
+          goal: ConstructPlayerList
+          
+        }
+      }
+    }
+  }
+  output (Player) {
+    evaluate {
+      $expr (player)
+    }
+  }
+}

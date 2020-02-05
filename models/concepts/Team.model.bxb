@@ -1,0 +1,11 @@
+structure (Team) {
+  description (A team of players)
+  property (players) {
+    type (Player)
+    min (Required) max (Many)
+  }
+  property (teamImpact) {
+    type (TeamImpact)
+    min (Required) max (One)
+  }
+}

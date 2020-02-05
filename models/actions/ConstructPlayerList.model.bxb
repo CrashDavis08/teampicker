@@ -1,0 +1,6 @@
+action (ConstructPlayerList) {
+  type (Constructor)
+  description (Construct player list)
+  
+  output (Player)
+}
