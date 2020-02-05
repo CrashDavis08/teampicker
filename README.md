@@ -4,9 +4,10 @@
 ### Hey Adam!
 
 
-## Changelog (List significant changes to the capsule, and increase the version with each one)
+## Changelog
+#### (List significant changes to the capsule, and increase the version with each one)
 
-### 0.1.0
+#### 0.1.0
 - initial commit
 
 
