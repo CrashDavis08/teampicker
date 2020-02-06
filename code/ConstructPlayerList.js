@@ -20,8 +20,8 @@ module.exports.function = function ConstructPlayerList () {
     {playerName:"Ram",playerImpact:9},
     {playerName:"Jennifer",playerImpact:10},
     {playerName:"Michelle",playerImpact:11},
-    {playerName:"John A",playerImpact:8}
-    // {playerName:"Sangmok",playerImpact:10}
+    {playerName:"John A",playerImpact:8},
+    {playerName:"Sangmok",playerImpact:10}
   ]
   return playerList 
 }

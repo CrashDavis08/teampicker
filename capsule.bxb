@@ -1,5 +1,5 @@
 capsule {
-  id (playground.pickupandplay)
+  id (eviladam.teamPicker)
   version (0.1.0)
   format (3)
   targets {
