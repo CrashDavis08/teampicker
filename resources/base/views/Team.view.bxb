@@ -21,13 +21,14 @@ result-view {
 								}
 							}
 							vbox {
-                valign (Bottom)
-								grow (2)
+                valign (Middle)
+								grow (1)
 								content {
 									single-line {
                     image {
-                      url (/images/Versus3.jpg)
-                      style (Title_S)
+											shape (Circle)
+                      url (/images/Versus5.png)
+                      style (Title_L)
                     }
 										// text {
 										// 	value ("vs.")
@@ -61,7 +62,7 @@ result-view {
 											single-line {
 												text {
 													value ("#{value(teams[0].players[i].playerName)}")
-                          style (Title_M)
+                          style (Title_S)
 												}
 											}
 										}
@@ -69,7 +70,7 @@ result-view {
 								}
 							}
               vbox {
-                grow (2)
+                grow (1)
                 content {
                   single-line {
                     spacer
@@ -84,7 +85,7 @@ result-view {
 											single-line {
 												text {
 													value ("#{value(teams[1].players[i].playerName)}")
-                          style (Title_M)
+                          style (Title_S)
 												}
 											}
 										}
@@ -96,17 +97,27 @@ result-view {
           hbox {
             content {
               vbox {
+								grow (3)
                 content {
                   text {
-                    value ("#{size(teams[0])} players (#{integer(teams[0].teamImpact)})")
+                    value ("#{size(teams[0].players)} players (#{integer(teams[0].teamImpact)})")
                     style (Detail_L_Soft)
                   }
                 }
               }
+							vbox {
+								grow (1)
+								content {
+									single-line {
+										spacer
+									}
+								}
+							}
               vbox {
+								grow (3)
                 content {
                   text {
-                    value ("#{size(teams[1])} players (#{integer(teams[1].teamImpact)})")
+                    value ("#{size(teams[1].players)} players (#{integer(teams[1].teamImpact)})")
                     style (Detail_L_Soft)
                   }
                 }
