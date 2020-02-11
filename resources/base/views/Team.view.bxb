@@ -94,6 +94,8 @@ result-view {
 							}
 						}
 					}
+							
+					
           hbox {
             content {
               vbox {
@@ -123,7 +125,8 @@ result-view {
                 }
               }
             }
-          }
+          }			
+					
 				}
 			}
 		}

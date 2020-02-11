@@ -22,12 +22,15 @@ module.exports.function = function createTeams(everyoneFlag, player) {
   } else {
     var MAX_DIFF = 8
   }
+
+  
+
   console.log("teams are even")
   while (unfair == true) {
     //  randomly assign teamSize players to new array TeamOne, calculate TeamOneImpact, repeat until teams are fair
+    
     for (i = 0; i < teamSize; i++) {
       var randomIndex = Math.floor(Math.random() * playerPool.length)
-
       var temp = playerPool.splice(randomIndex, 1)
       TeamOne.push(temp[0])
     }

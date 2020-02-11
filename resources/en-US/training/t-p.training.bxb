@@ -1,0 +1,5 @@
+train (t-pgmaccpmwurikxeiexblgnwxh) {
+  utterance ([g:eviladam.teamPicker.CreateTeams:continue:SelectPlayerPool,v:Everyone:true] everyone)
+  plan (Y2BmkEgty8xJTEnM1StJTcwNyEzOTi3SCwEyGeSxyTgXpSaWpILkixlksClwLUstqszPS2VgYmAEYgYgycgAAlA+AA==)
+  last-modified (1581381653545)
+}
