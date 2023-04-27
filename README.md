@@ -1,7 +1,7 @@
 # playground.pickupandplay
-# Random Stuff in here
+# Capsule for creating the most competitively fair teams for lunchtime soccer
 
-### Hey Adam!
+###
 
 
 ## Change Log
